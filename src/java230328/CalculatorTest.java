@@ -17,6 +17,7 @@ class FullCalculator implements Calculator{
 public class CalculatorTest {
     public static void main(String [] args){
         FullCalculator fullcal = new FullCalculator();
+
         fullcal.add(1, 2);
         fullcal.subtract(1, 2);
         fullcal.multiply(1, 2);

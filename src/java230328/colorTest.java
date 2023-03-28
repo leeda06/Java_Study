@@ -9,6 +9,7 @@ interface Mynumber {
 }
 public class colorTest {
     public static void main (String [] args){
+
         System.out.println(Color.RED);
         System.out.println(Color.GREEN);
 

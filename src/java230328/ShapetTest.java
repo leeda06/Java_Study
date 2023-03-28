@@ -4,7 +4,7 @@ interface Shape{
     double perimeter(double r);
 
 }
-class Circle implements Shape{
+class Circle {
     private double r;
     public Circle(double r){
         this.r = r;

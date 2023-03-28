@@ -42,11 +42,13 @@ class VideoPlayer  implements Playable{
 public class PlayTest {
     public static void main (String [] agrs){
         AudioPlayer audio = new AudioPlayer();
+
         audio.play();
         audio.pause();
         audio.stop();
 
         VideoPlayer video = new VideoPlayer();
+
         video.play();
         video.pause();
         video.stop();
