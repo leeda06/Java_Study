@@ -1,4 +1,4 @@
-package java230410;
+package java230411;
 // import java.lang.*;
 
 // import kr.hs.emirim.MyClass;
@@ -89,5 +89,44 @@ public class main {
 //        kr.MyClass mc3 = new kr.MyClass();
 //        kr.hs.emirim.MyClass mc4 = new kr.hs.emirim.MyClass();
 //        java.lang.String s = new java.lang.String("Hello");
+
+        String s = "Hello";
+        s = s + "Java";     //  "Hello"가 "HelloJava"로 변한것이아니라
+        System.out.println(s);//"Hello"에 "Java"가 붙은거임
+
+        String java="Java";
+        String java2="Java";
+        String cpp="C++";
+        String c = "c";
+        String z = "z";
+
+        int res1 = java.compareTo(java2);
+        System.out.println(res1);
+        int res2 = java.compareTo(c);
+        System.out.println(res2);
+        int res3 = java.compareTo(z);
+        System.out.println(res3);
+
+        System.out.println("Javb".compareTo("Javc"));
+        System.out.println("Javb".compareTo("Java"));
+
+        System.out.println("나".compareTo("다")); //  음수 (나가 다보다 앞에 있음)
+        System.out.println("나".compareTo("가")); //  양수 (나가 가보다 뒤에있음)
+        System.out.println("나".compareTo("가"));
+
+        System.out.println("가나다".codePointAt(0));
+        System.out.println("가나다".codePointAt(1));
+        System.out.println("가나다".codePointAt(2));
+
+        System.out.println("나".compareTo("가"));
+
+        System.out.println("abcdef".substring(0));
+        System.out.println("abcdef".substring(2));
+        System.out.println("abcdef".substring(100));
+
+        System.out.println("b".compareTo("c"));
+        System.out.println("b".compareTo("a"));
+
+
     }
 }
