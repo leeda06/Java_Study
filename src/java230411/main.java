@@ -120,7 +120,7 @@ public class main {
 
         System.out.println("나".compareTo("가"));
 
-        System.out.println("abcdef".substring(0));
+        System.out.println("abcdef".substring(0,3));
         System.out.println("abcdef".substring(2));
         System.out.println("abcdef".substring(100));
 
